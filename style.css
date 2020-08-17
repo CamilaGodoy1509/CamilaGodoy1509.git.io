@@ -59,7 +59,14 @@ section span {
 
 section img {
     margin: 20px;
-    width: 10vw;
+    width: 15vw;
+    height: 20vh;
+    opacity: 0.5;
+}
+
+section img:hover {
+    opacity: 1;
+    transition: ease-in-out 1s;
 }
 
 a {

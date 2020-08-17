@@ -13,7 +13,7 @@
                 document.getElementById('div').innerHTML += 
                '<section>' + '<h1>' + '<center>' + obj[i].name + '</center>' + '</h1>' +
                '<center>'+ '<span>'+obj[i].language +  '</span>'+ '</center>'+  
-               '<center>'+ "<img src='" + obj[i].owner.avatar_url + "'>" + '</center>' +
+               '<center>'+ "<img src='images/" + obj[i].name + ".png'>" + '</center>' +
                '<center>' + "<a href='" +  obj[i].html_url +  "'>"  + "Link para o Repositório" + "</a>"+  '</center>' + '</section>' 
                 
 
