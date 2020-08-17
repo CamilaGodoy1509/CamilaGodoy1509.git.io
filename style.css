@@ -5,7 +5,7 @@
 
 
 body {
-    background-image: url('https://images.unsplash.com/uploads/14116941824817ba1f28e/78c8dff1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1533&q=80');
+    background-color: #f0edd1;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Baloo Tamma 2', cursive;
@@ -15,26 +15,26 @@ h1{
     align-content: center;
     justify-content: center;
     color: #fff;
-    text-shadow: #fff 1px 1px 1px;
+    text-shadow: #ccc 1px 1px 1px;
     margin: 10px;
 }
 
 section {
-    background-color: #746e5d;
+    background-color: #f8e9c2;
     margin: 10px;
     padding: 10px;
     width: 20vw;
     height: 55vh;
     float: left;
     border-radius: 10px;
-    box-shadow: #fff 2px 2px 2px;
+    box-shadow: #ccc 1px 2px 1px;
 }
 
 section h1 {
     align-content: center;
     justify-content: center;
-    color: #000;
-    text-shadow: #fff 1px 1px 1px;
+    color: #fff;
+    text-shadow: #ccc 1px 1px 1px;
     margin: 10px;
 
 }
@@ -45,7 +45,7 @@ section h1:hover {
 }
 
 section span {
-    background-image: url('https://images.unsplash.com/photo-1456154875099-97a3a56074d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80');
+    background-color: #f8e9c2;
     padding: 10px 5vw;
     margin-top: 10px;
     font-family: 'Josefin Sans', sans-serif;
@@ -64,7 +64,7 @@ section img {
 
 a {
     text-decoration: none;
-    background-color: #e8e7d7;
+    background-color: #dedede;
     color: #746e5d;
     padding: 10px;
     border: none;
@@ -73,7 +73,7 @@ a {
 }
 
 a:hover {
-    background-image: url('https://images.unsplash.com/photo-1456154875099-97a3a56074d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80');
-    color: #ffffff;
+    background-color: #fff;
+    color: #ccc;
     transition: ease-in-out 0.5s;
 }
