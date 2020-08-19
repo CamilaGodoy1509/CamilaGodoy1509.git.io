@@ -27,10 +27,8 @@
     xhr.send()
 
     function salvar() {
-        var nome  = []
-        nome.push ({
-            name: "Camila"});
-            const json_nome = JSON.stringify(nome);
+            var nome = document.getElementById('nome1');
+            var json_nome = JSON.stringify(nome);
            localStorage.setItem ("nome", json_nome);
    }
     
