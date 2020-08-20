@@ -6,8 +6,6 @@
 
 body {
     background-color: #f0edd1;
-    background-repeat: no-repeat;
-    background-size: cover;
     font-family: 'Baloo Tamma 2', cursive;
 }
 
@@ -95,4 +93,20 @@ input {
     border: none;
     border-radius: 10px;
     font-family: 'Baloo Tamma 2', cursive;
+}
+
+#div3 {
+    background-color: #dedede;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    color: #fff;
+    text-shadow: #ccc 1px 1px 1px;
+}
+
+
+#img-div {
+    width: 100px;
+    border-radius: 50px;
 }
